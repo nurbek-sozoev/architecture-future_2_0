@@ -35,3 +35,14 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Node.js
+node_modules/
+
+# AOE Tech Radar build
+**build/
+**node_modules/
+**/.next/
+**/.techradar/
+
+.DS_Store

@@ -1,0 +1,123 @@
+{
+  "basePath": "/",
+  "baseUrl": "",
+  "editUrl": "",
+  "logoFile": "logo.svg",
+  "jsFile": "",
+  "toggles": {
+    "showChart": true,
+    "showTagFilter": true,
+    "showQuadrantList": true,
+    "showEmptyRings": false
+  },
+  "sections": ["radar", "tags", "list"],
+  "colors": {
+    "foreground": "#1a1a2e",
+    "background": "#ffffff",
+    "highlight": "#4361ee",
+    "content": "#f8f9fa",
+    "text": "#495057",
+    "link": "#4361ee",
+    "border": "rgba(0, 0, 0, 0.08)",
+    "tag": "rgba(67, 97, 238, 0.08)"
+  },
+  "quadrants": [
+    {
+      "id": "languages-and-frameworks",
+      "title": "Языки и Фреймворки",
+      "description": "Языки программирования и фреймворки, используемые доменными командами для разработки сервисов",
+      "color": "#4cc9f0"
+    },
+    {
+      "id": "methods-and-patterns",
+      "title": "Практики и Паттерны",
+      "description": "Архитектурные подходы, методологии разработки и организационные практики",
+      "color": "#4361ee"
+    },
+    {
+      "id": "platforms-and-operations",
+      "title": "Платформы",
+      "description": "Платформенные решения для хранения данных, оркестрации, событийной интеграции и облачной инфраструктуры",
+      "color": "#7209b7"
+    },
+    {
+      "id": "tools",
+      "title": "Инструменты",
+      "description": "Инструменты для интеграции, аналитики, управления данными и ML-моделями",
+      "color": "#f72585"
+    }
+  ],
+  "rings": [
+    {
+      "id": "adopt",
+      "title": "Активно используем",
+      "description": "Технология проверена и рекомендуется к активному внедрению. Критична для целевой архитектуры",
+      "color": "#2dc653",
+      "radius": 0.5,
+      "strokeWidth": 5
+    },
+    {
+      "id": "trial",
+      "title": "Пробуем",
+      "description": "Технология с высоким потенциалом. Рекомендуется пилотный проект для оценки применимости",
+      "color": "#4361ee",
+      "radius": 0.69,
+      "strokeWidth": 3
+    },
+    {
+      "id": "assess",
+      "title": "Изучаем",
+      "description": "Перспективная технология на этапе исследования. Требует анализа и proof-of-concept",
+      "color": "#f9a826",
+      "radius": 0.85,
+      "strokeWidth": 2
+    },
+    {
+      "id": "hold",
+      "title": "Выводим",
+      "description": "Legacy или устаревшая технология. Рекомендуется к замене или выводу из эксплуатации",
+      "color": "#ef233c",
+      "radius": 1,
+      "strokeWidth": 0.75
+    }
+  ],
+  "flags": {
+    "new": {
+      "color": "#4361ee",
+      "title": "Новое",
+      "titleShort": "N",
+      "description": "Новая технология в целевой архитектуре"
+    },
+    "changed": {
+      "color": "#4cc9f0",
+      "title": "Изменено",
+      "titleShort": "C",
+      "description": "Недавно менялось"
+    },
+    "default": {
+      "description": "Текущая технология без изменений"
+    }
+  },
+  "chart": {
+    "size": 800,
+    "blipSize": 12
+  },
+  "social": [],
+  "imprint": "",
+  "labels": {
+    "title": "Технологический радар",
+    "imprint": "",
+    "quadrant": "Технические области",
+    "quadrantOverview": "Подробнее",
+    "zoomIn": "Приблизить",
+    "filterByTag": "Отфильтровать по тегу",
+    "footer": "Технологический радар целевой архитектуры платформы Healthcare & FinTech",
+    "notUpdated": "Давно не менялось",
+    "notFound": "404",
+    "pageAbout": "Как пользоваться",
+    "pageOverview": "Обзор технологий",
+    "pageSearch": "Поиск",
+    "searchPlaceholder": "Что ищете?",
+    "metaDescription": "Технологический радар целевой архитектуры"
+  }
+}
